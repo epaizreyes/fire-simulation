@@ -1,0 +1,6 @@
+{
+    "widthGrid": 9,
+    "heightGrid": 7, 
+    "burningProbability": 0.7,
+    "initFire": [[1,8], [4, 4]]
+}

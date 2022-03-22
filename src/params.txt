@@ -1,0 +1,9 @@
+# ----------------------------------------------------------
+# This is a configuration file
+# Names of arguments are case-sensitive
+# ----------------------------------------------------------
+widthGrid=3
+heightGrid=3
+burningProbability=0.5
+initFire=[[1,1]]
+# ----------------------------------------------------------
