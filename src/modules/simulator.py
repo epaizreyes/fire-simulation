@@ -103,7 +103,7 @@ def simulateFire(file):
                     STATES[key]["color"]["g"], STATES[key]["color"]["b"], STATES[key]["symbol"])
     
         # Set the next state of the forest
-        forest = nextState.copy()
+        forest = nextState[:]
         # Print the grid graphically colored
         printGrid(t, coloredForest, w, h); 
     

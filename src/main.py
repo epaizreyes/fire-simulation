@@ -13,4 +13,4 @@ from modules.simulator import simulateFire                  # Simulator of the f
 # ----------------------------------------------------------
 
 file = sys.argv[1]
-simulateFire(os.path.join(os.path.dirname(__file__), file))
+simulateFire(file)
