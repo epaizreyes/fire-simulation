@@ -5,7 +5,7 @@ This program simulates the spread of fire fire in a forest represented by a grid
 ## Description
 
 The simulation is carried out as follows:
-* In the initial state, one or more squares are on fire.
+* In the initial state, one or more forest grid nodes are on fire.
 * If a node of the forest grid is on fire at step t, then at step t+1 the fire will go out and this node will be filled with ash and can no longer burn. There is a probability p that the fire will spread to each of the 4 adjacent nodes.
 * The simulation stops when there are no more nodes on fire.
 
@@ -33,8 +33,10 @@ Example of a `.json`:
 
 ## Run
 
-Python3 is used to run your simulation, for example as:
+`python3` is used to run your simulation, for example you can:
 
 ```bash
-python3 src/main.py params.txt
+git clone url
+cd fire-simulator
+python3 src/main.py src/params.json
 ```

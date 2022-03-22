@@ -1,3 +1,4 @@
 # mypy
 .DS_Store
+.pyc
 src/modules/__pycache__/
