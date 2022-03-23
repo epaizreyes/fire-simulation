@@ -15,9 +15,9 @@ import os.path                                              # Path management
 # ----------------------------------------------------------
 # States of a node in the forest grid
 STATES = {
-    "normal": {"code": 0, "color": {"r": 50, "g": 205, "b": 50}, "symbol": "▦"},
-    "fire": {"code": 1, "color": {"r": 255, "g": 0, "b": 0}, "symbol": "▣"},
-    "burned": {"code": 2, "color": {"r": 176, "g": 196, "b": 222}, "symbol": "□"}
+    "normal": {"code": 0, "color": {"r": 50, "g": 205, "b": 50}, "symbol": "\u25a6"},
+    "fire": {"code": 1, "color": {"r": 255, "g": 0, "b": 0}, "symbol": "\u25a3"},
+    "burned": {"code": 2, "color": {"r": 176, "g": 196, "b": 222}, "symbol": "\u25a1"}
 }
 # ----------------------------------------------------------
 

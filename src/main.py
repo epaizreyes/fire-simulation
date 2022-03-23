@@ -8,7 +8,6 @@ Main program for the simulation of the spreading of fire in a forest.
 # ----------------------------------------------------------
 # Imports
 import sys                                                  # System module
-import os.path                                              # Path management
 from modules.simulator import simulateFire                  # Simulator of the fire
 # ----------------------------------------------------------
 
